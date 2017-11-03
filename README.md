@@ -39,6 +39,8 @@ You can find more datasets in:
 
 Before using these data sets, please review their README files or sites for the usage licenses, acknowledgments and other details.
 
+`Note` : If you have difficulties in downloading any of these datasets please contact me. I have backup of all datasets.
+
 ## Contributors
 
     Arthur Fortes da Costa {fortes.arthur@gmail.com} (ICMC - USP) [Editor]

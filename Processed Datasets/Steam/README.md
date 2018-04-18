@@ -32,29 +32,34 @@ DETAILED DESCRIPTIONS OF DATA FILES
 
 Here are brief descriptions of the data.
 
-items_info.dat    -- Information about the items (games); this is a tab separated
-                  list of
-                  Game_ID | Game Name |
+items_info.dat    
 
+                  Information about the items (games); this is a tab separated list of
+                  Game_ID | Game Name |
                   The item ids are the ones used in the game_purchase.dat 
                   and game_play.dat files.
 
 
-users_info.dat    -- IDs information about the users; this is a tab
-                  separated list of
+users_info.dat    
+
+                  IDs information about the users; this is a tab separated list of
                   New_ID | Real_ID |
 
                   The user ids are the ones used in the game_purchase.dat 
                   and game_play.dat files.
 
 
-game_purchase.dat -- The full purchase set: 129,512 interactions by 12,393 users on 5,155 games.
+game_purchase.dat 
+
+                  The full purchase set: 129,512 interactions by 12,393 users on 5,155 games.
                   Users and items are numbered consecutively from 1. The data is ordered by users ids. 
                   This is a tab separated list of 
                   User_ID | Game_ID | Purchase 
                   
 
-game_play.dat     -- The full play hours set: 70,490 interactions by 11,350 users on 3,600 games.
+game_play.dat     
+
+                  The full play hours set: 70,490 interactions by 11,350 users on 3,600 games.
                   Users and items are numbered consecutively from 1. The data is ordered by users ids. 
                   This is a tab separated list of 
                   User_ID | Game_ID | Hours 

@@ -1,30 +1,33 @@
 SUMMARY & USAGE LICENSE
 =============================================
 
-This dataset is provided by Keagle through the link: https://www.kaggle.com/tamber/steam-video-games/data.
+Book Crossing dataset were collected by Cai-Nicolas Ziegler in a 4-week crawl (August / September 2004) 
+from the Book-Crossing community with kind permission from Ron Hornbaker, CTO of Humankind Systems. 
 
-* Context
-Steam is the world's most popular PC Gaming hub, with over 6,000 games and a community of millions of gamers. With a massive collection that includes everything from AAA blockbusters to small indie titles, great discovery tools are a highly valuable asset for Steam. How can we make them better?
-
-* Content
-This dataset is a list of user behaviors, with columns: user-id, game-title, behavior-name, value. The behaviors included are 'purchase' and 'play'. The value indicates the degree to which the behavior was performed - in the case of 'purchase' the value is always 1, and in the case of 'play' the value represents the number of hours the user has played the game.
-
-* Acknowledgements
-This dataset is generated entirely from public Steam data, so we want to thank Steam for building such an awesome platform and community!
-
-
-This data has been organized by Arthur Fortes [1], which generated new IDs for users and items and separated in files 
-the information of purchase and play hours. 
+This data has been organized and cleaned up by Arthur Fortes [1] based on MovieLens 100k treatment [2], 
+which removed all users and items who had less than 20 and 10 interactions, receptively, items that have no information and separated 
+in files the explicit and implicit interactions. 
 
 Detailed descriptions of the data file can be found at the end of this file.
  
 This dataset consists of:
-  * 200,000 interactions (play / purchase) from 12,393 users on 5,155 games.
-    - Play Hours: 11,350 users and 3,600 games (70,490 interactions)
-    - Purchase: 12,393 users and 5,155 games (129,512 interactions) 
+  * 272,679 interactions (explicit / implicit) from 2,946 users on 17,384 books.
+    - Ratings: 1,295 users and 14,684 books (62,657 ratings applied)
+    - History: 2,946 users and 17,384 books (272,679 accesses) 
+  * Ratings are between 1 - 10. Implicit feedback are represented by 1.
+  * Simple demographic info for the users (age, gender, occupation, zip)
 
 If you have any further questions or comments, please contact me
 <fortes.arthur@gmail.com>. 
+
+
+CITATION
+==============================================
+
+Freely available for research use when acknowledged with the following reference (further details on the dataset are given in this publication):
+
+Improving Recommendation Lists Through Topic Diversification, Cai-Nicolas Ziegler, Sean M. McNee, Joseph A. Konstan, Georg Lausen; 
+Proceedings of the 14th International World Wide Web Conference (WWW '05), May 10-14, 2005, Chiba, Japan.
 
 
 DETAILED DESCRIPTIONS OF DATA FILES
@@ -33,35 +36,39 @@ DETAILED DESCRIPTIONS OF DATA FILES
 Here are brief descriptions of the data.
 
 items_info.dat    
-                  
-                  Information about the items (games); this is a tab separated list of
-                  Game_ID | Game Name |
-                  The item ids are the ones used in the game_purchase.dat 
-                  and game_play.dat files.
+
+                  Information about the items (books); this is a tab separated list of
+                  Book_ID | ISBN | Book-Title | Book-Author | Year-Of-Publication | 
+                  Publisher | Image-URL-S | Image-URL-M | Image-URL-L |
+
+                  The item ids are the ones used in the book_history.dat 
+                  and book_ratings.dat files.
 
 
 users_info.dat    
-                  
-                  IDs information about the users; this is a tab separated list of
-                  New_ID | Real_ID |
-                  The user ids are the ones used in the game_purchase.dat 
-                  and game_play.dat files.
+
+                  Demographic information about the users; this is a tab
+                  separated list of
+                  User-ID | Location | Age
+
+                  The user ids are the ones used in the book_history.dat 
+                  and book_ratings.dat files.
 
 
-game_purchase.dat 
+book_history.dat  
 
-                  The full purchase set: 129,512 interactions by 12,393 users on 5,155 games.
+                  The full history set, 272,679 accesses by 2,946 users on 17,384 books.
+                  Each user has accessed at least 20 books.  Users and items are
+                  numbered consecutively from 1.  The data is ordered by users ids. 
+                  This is a tab separated list of 
+                  user id | item id | accessed 
+
+book_ratings.dat
+
+                  The full ratings set, 62,657 ratings by 1,295 users on 14,684 books.
                   Users and items are numbered consecutively from 1. The data is ordered by users ids. 
                   This is a tab separated list of 
-                  User_ID | Game_ID | Purchase 
-
-
-game_play.dat     
-
-                  The full play hours set: 70,490 interactions by 11,350 users on 3,600 games.
-                  Users and items are numbered consecutively from 1. The data is ordered by users ids. 
-                  This is a tab separated list of 
-                  User_ID | Game_ID | Hours 
+                  user id | item id | ratings 
 
 
 REFERENCES
@@ -69,3 +76,8 @@ REFERENCES
 
 [1] Da Costa, Arthur Fortes. PhD candidate at the Institute of Mathematical and Computational Sciences, 
 University of São Paulo. URL: https://arthurfortes.github.io/
+
+
+[2] MovieLens 100K Dataset. Stable benchmark dataset. 100,000 ratings from 1000 users on 1700 movies. 
+Released 4/1998. URL: https://grouplens.org/datasets/movielens/100k/
+Generated by GroupLens [Department of Computer Science and Engineering at the University of Minnesota].

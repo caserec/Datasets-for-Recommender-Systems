@@ -44,7 +44,6 @@ items_info.dat
                   The item ids are the ones used in the book_history.dat 
                   and book_ratings.dat files.
 
-
 users_info.dat    
 
                   Demographic information about the users; this is a tab

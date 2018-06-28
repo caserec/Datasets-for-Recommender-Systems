@@ -25,6 +25,9 @@ This is a repository of a topic-centric public data sources in high quality for 
   - [CiaoDVD](https://www.librec.net/datasets.html):: CiaoDVD is a dataset crawled from the entire category of DVDs from the dvd.ciao.co.uk website in December, 2013
   - [FilmTrust](https://www.librec.net/datasets.html):: FilmTrust is a small dataset crawled from the entire FilmTrust website in June, 2011
   - [Netflix](http://academictorrents.com/details/9b13183dc4d60676b773c9e2cd6de5e5542cee9a):: This is the official data set used in the Netflix Prize competition. 
+  
+### Games
+
   - [Steam Video Games](https://www.kaggle.com/tamber/steam-video-games/data):: This dataset is a list of user behaviors, with columns: user-id, game-title, behavior-name, value. The behaviors included are 'purchase' and 'play'. The value indicates the degree to which the behavior was performed - in the case of 'purchase' the value is always 1, and in the case of 'play' the value represents the number of hours the user has played the game. 
 
 ### Jokes

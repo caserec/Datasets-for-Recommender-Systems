@@ -10,7 +10,7 @@ This is a repository of a topic-centric public data sources in high quality for 
   - [Book Crossing](http://www2.informatik.uni-freiburg.de/~cziegler/BX/):: The BookCrossing (BX) dataset was collected by Cai-Nicolas in a 4-week crawl (August / September 2004) from the Book-Crossing community
   
 ### Dating
-  - [Dating Agency](hhttp://www.occamslab.com/petricek/data/):: This dataset contains 17,359,346 anonymous ratings of 168,791 profiles made by 135,359 LibimSeTi users as dumped on April 4, 2006.
+  - [Dating Agency](http://www.occamslab.com/petricek/data/):: This dataset contains 17,359,346 anonymous ratings of 168,791 profiles made by 135,359 LibimSeTi users as dumped on April 4, 2006.
 
 ### E-commerce
   - [Amazon](http://jmcauley.ucsd.edu/data/amazon/):: This dataset contains product reviews and metadata from Amazon, including 142.8 million reviews spanning May 1996 - July 2014

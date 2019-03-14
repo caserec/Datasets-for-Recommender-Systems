@@ -16,9 +16,9 @@ Detailed descriptions of the data file can be found at the end of this file.
  
 This dataset consists of:
   * 92,490 interactions from 3,431 users on 8,885 items.
-    - History: 3,423 users and 8,878 items (78,372 accesses) 
-    - Purchase: 824 users and 3,077 items (5,089 interactions)
-    - Add to cart: 1,557 users and 4,447 items (9,029 interactions) 
+    - History: 3,423 users and 8,878 items (78,371 accesses) 
+    - Purchase: 824 users and 3,077 items (5,088 interactions)
+    - Add to cart: 1,557 users and 4,447 items (9,028 interactions) 
 
 If you have any further questions or comments, please contact me
 <fortes.arthur@gmail.com>. 
@@ -37,7 +37,7 @@ Here are brief descriptions of the data.
 
 view_ecommerce.dat    
                   
-                  The full history set, 78,372 accesses by 3,423 users on 8,878 items.
+                  The full history set, 78,371 accesses by 3,423 users on 8,878 items.
                   Each user has accessed at least 10 items.  Users and items are
                   numbered consecutively from 1.  The data is ordered by users ids. 
                   This is a tab separated list of 
@@ -46,7 +46,7 @@ view_ecommerce.dat
 
 add_to_cart_ecommerce.dat    
 
-                  The full history set, 5,089 accesses by 824 users on 3,077 items.
+                  The full history set, 5,088 accesses by 824 users on 3,077 items.
                   Users and items are numbered consecutively from 1.  
                   The data is ordered by users ids. This is a tab separated list of 
                   visitorid | itemid | event
@@ -54,7 +54,7 @@ add_to_cart_ecommerce.dat
 
 purchase_ecommerce.dat  
                   
-                  The full history set, 9,029 accesses by 1,557 users on 4,447 items.
+                  The full history set, 9,028 accesses by 1,557 users on 4,447 items.
                   Users and items are numbered consecutively from 1. The data is ordered by users ids. 
                   This is a tab separated list of 
                   visitorid | itemid | event

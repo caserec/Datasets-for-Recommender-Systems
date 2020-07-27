@@ -66,6 +66,6 @@ Before using these data sets, please review their README files or sites for the 
 
 ## Contributors
 
-    Arthur Fortes da Costa {fortes [dot] arthur [at] gmail [dot] com} (ICMC - USP) [Editor]
+    Arthur Fortes da Costa {fortes [dot] arthur [at] gmail [dot] com} [Editor]
 
 

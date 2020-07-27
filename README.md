@@ -25,8 +25,8 @@ This is a repository of a topic-centric public data sources in high quality for 
 ### Movies
   - [MovieLens](https://grouplens.org/datasets/movielens/):: GroupLens Research has collected and made available rating datasets from their movie web site 
   - [Yahoo Movies](https://webscope.sandbox.yahoo.com/catalog.php?datatype=r):: This dataset contains ratings for songs collected from two different sources. The first source consists of ratings supplied by users during normal interaction with Yahoo! Music services. 
-  - [CiaoDVD](https://www.librec.net/datasets.html):: CiaoDVD is a dataset crawled from the entire category of DVDs from the dvd.ciao.co.uk website in December, 2013
-  - [FilmTrust](https://www.librec.net/datasets.html):: FilmTrust is a small dataset crawled from the entire FilmTrust website in June, 2011
+  - [CiaoDVD](https://drive.google.com/file/d/1w1FuVSQC9nqxcK5xj0Aw5Oxc1qV7d09A/view?usp=sharing):: CiaoDVD is a dataset crawled from the entire category of DVDs from the dvd.ciao.co.uk website in December, 2013
+  - [FilmTrust](https://drive.google.com/file/d/1ohQ9oo8aaR7aWlpe56hXx66x-bwXxB56/view?usp=sharing):: FilmTrust is a small dataset crawled from the entire FilmTrust website in June, 2011
   - [Netflix](http://academictorrents.com/details/9b13183dc4d60676b773c9e2cd6de5e5542cee9a):: This is the official data set used in the Netflix Prize competition. 
   
 ### Games

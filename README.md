@@ -40,7 +40,7 @@ This is a repository of a topic-centric public data sources in high quality for 
   - [Chicago Entree](http://archive.ics.uci.edu/ml/datasets/Entree+Chicago+Recommendation+Data):: This dataset contains a record of user interactions with the Entree Chicago restaurant recommendation system.
   
 ### Anime
-  - [Anime Recommendations Database](https://www.kaggle.com/CooperUnion/anime-recommendations-database):: This data set contains information on user preference data from 73,516 users on 12,294 anime. Each user is able to add anime to their completed list and give it a rating and this data set is a compilation of those ratings.
+  - [Anime Recommendation Database](https://www.kaggle.com/CooperUnion/anime-recommendations-database):: This data set contains information on user preference data from 73,516 users on 12,294 anime. Each user is able to add anime to their completed list and give it a rating and this data set is a compilation of those ratings.
 
 
 ### Other dataset

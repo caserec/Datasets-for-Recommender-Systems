@@ -42,6 +42,9 @@ This is a repository of a topic-centric public data sources in high quality for 
 ### Anime
   - [Anime Recommendations Database](https://www.kaggle.com/CooperUnion/anime-recommendations-database):: This data set contains information on user preference data from 73,516 users on 12,294 anime. Each user is able to add anime to their completed list and give it a rating and this data set is a compilation of those ratings.
 
+### Android Applications
+
+  - [Myket Android Application Install Dataset](https://github.com/erfanloghmani/myket-android-application-market-dataset):: This dataset contains 694,121 application install interactions from 10,000 anonymous users and 7,988 Anroid applications.
 
 ### Other dataset
 
